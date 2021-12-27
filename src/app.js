@@ -1,3 +1,5 @@
+'use strict';
+
 import { createReadStream } from 'fs';
 import { join, resolve } from 'path';
 import { EventEmitter } from 'events';

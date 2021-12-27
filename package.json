@@ -25,6 +25,12 @@
   "main": "./src/app.js",
   "type": "module",
   "license": "GPL-3.0",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "test": "node ./tests/index.js",
+    "build": "node ./builds/index.js"
+  },
   "keywords": [
     "lZiMUl",
     "Internationalization",
